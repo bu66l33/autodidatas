@@ -7,7 +7,7 @@ import { site } from "@/lib/site";
 
 const links = [
   { href: "#manifesto", label: "Manifesto" },
-  { href: "#areas", label: "Áreas" },
+  { href: "#membros", label: "Membros" },
   { href: "#ferramentas", label: "Ferramentas" },
   { href: "#duvidas", label: "Dúvidas" },
 ];

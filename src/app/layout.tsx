@@ -21,11 +21,11 @@ const plexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Autodidatas — comunidade para quem pensa fora da curva",
+  title: "Autodidatas | comunidade para quem pensa fora da curva",
   description:
     "Comunidade no Discord sobre matemática, direct response, xadrez, filosofia e inteligência artificial. Para quem aprende sozinho e se recusa a ser mediano.",
   openGraph: {
-    title: "Autodidatas — comunidade para quem pensa fora da curva",
+    title: "Autodidatas | comunidade para quem pensa fora da curva",
     description:
       "Matemática, direct response, xadrez, filosofia e IA. Para quem aprende sozinho e se recusa a ser mediano.",
     type: "website",

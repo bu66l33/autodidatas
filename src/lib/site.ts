@@ -5,34 +5,21 @@ export const site = {
   founded: "MMXXV",
 };
 
-export const areas = [
+export const members = [
   {
-    numeral: "I",
-    title: "Direct Response",
-    line: "Escrever para vender é psicologia com placar.",
-    body: "Copy que é medida, não elogiada. A gente desmonta o que está rodando com verba alta e discute por que funciona — ângulo, promessa, mecanismo, prova.",
-    glyph: "target",
+    title: "Vídeos",
+    body: "Aulas e gravações liberadas dentro da comunidade, feitas por quem está executando.",
+    glyph: "play",
   },
   {
-    numeral: "II",
-    title: "E-commerce & Criativos",
-    line: "Do produto até o criativo que escala.",
-    body: "Escolha de produto, oferta, página, tráfego e — principalmente — o criativo. Porque no fim é o vídeo que carrega a conta.",
-    glyph: "cart",
+    title: "Ferramentas",
+    body: "As ferramentas que a gente usa no dia a dia, com prompts e configurações prontas.",
+    glyph: "tools",
   },
   {
-    numeral: "III",
-    title: "IA na prática",
-    line: "Testado por nós antes de virar indicação.",
-    body: "As ferramentas que a gente usa de verdade no dia a dia, com prints, prompts e resultado junto. Sem hype de influencer e sem link de afiliado disfarçado.",
-    glyph: "network",
-  },
-  {
-    numeral: "IV",
-    title: "Fundamentos",
-    line: "O que sustenta todo o resto.",
-    body: "Nada aqui é hobby. Matemática afia o raciocínio, xadrez treina antecipação, filosofia ensina a questionar a pergunta antes de otimizar a resposta.",
-    glyph: "column",
+    title: "Livros gratuitos",
+    body: "Biblioteca aberta para todos os membros. Nada travado atrás de pagamento.",
+    glyph: "book",
   },
 ];
 
@@ -78,7 +65,7 @@ export const forYou = [
   "Você aprende sozinho porque nunca teve paciência de esperar alguém ensinar.",
   "Você prefere estar errado hoje a estar confortável por mais um ano.",
   "Você tem seis abas abertas sobre seis assuntos que ninguém liga um ao outro.",
-  "Você quer ser o mais burro da sala — e isso te anima em vez de assustar.",
+  "Você quer ser o mais burro da sala, e isso te anima em vez de assustar.",
   "Você já percebeu que ser mediano é uma escolha, não um destino.",
 ];
 
@@ -89,7 +76,7 @@ export const faq = [
   },
   {
     q: "Sou iniciante em quase tudo. Sirvo?",
-    a: "Serve, desde que iniciante signifique ignorante e curioso — não passivo. Ninguém aqui liga para o seu ponto de partida, só para a sua velocidade.",
+    a: "Serve, desde que iniciante signifique ignorante e curioso, não passivo. Ninguém aqui liga para o seu ponto de partida, só para a sua velocidade.",
   },
   {
     q: "Preciso me interessar por todos os assuntos?",

@@ -1,7 +1,7 @@
 import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
 import Manifesto from "@/components/Manifesto";
-import Areas from "@/components/Areas";
+import Members from "@/components/Members";
 import Tools from "@/components/Tools";
 import Quote from "@/components/Quote";
 import Filter from "@/components/Filter";
@@ -15,7 +15,7 @@ export default function Home() {
       <Nav />
       <Hero />
       <Manifesto />
-      <Areas />
+      <Members />
       <Tools />
       <Quote />
       <Filter />

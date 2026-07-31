@@ -1,34 +1,22 @@
 const paths: Record<string, React.ReactNode> = {
-  target: (
+  play: (
     <>
-      <circle cx="24" cy="24" r="17" />
-      <circle cx="24" cy="24" r="9" />
-      <circle cx="24" cy="24" r="2" />
-      <path d="M24 2v8M24 38v8M2 24h8M38 24h8" />
+      <rect x="5" y="10" width="38" height="28" rx="2" />
+      <path d="M20 19l10 5-10 5z" />
+      <path d="M14 4l4 6M26 4l4 6" />
     </>
   ),
-  cart: (
+  tools: (
     <>
-      <path d="M5 7h6l5 22h20" />
-      <path d="M13 13h30l-4 12H15" />
-      <circle cx="19" cy="38" r="3" />
-      <circle cx="35" cy="38" r="3" />
+      <path d="M30 6a9 9 0 0 0 11 12L28 31 17 20 30 6z" />
+      <path d="M17 20 6 31a4 4 0 0 0 0 6l4 4a4 4 0 0 0 6 0l11-11" />
+      <circle cx="13" cy="35" r="1.5" />
     </>
   ),
-  network: (
+  book: (
     <>
-      <circle cx="24" cy="9" r="4" />
-      <circle cx="9" cy="34" r="4" />
-      <circle cx="39" cy="34" r="4" />
-      <circle cx="24" cy="26" r="4" />
-      <path d="M24 13v9M21 29l-9 3M27 29l9 3M12 32 21 12M36 32 27 12" />
-    </>
-  ),
-  column: (
-    <>
-      <path d="M12 12h24M10 42h28" />
-      <path d="M15 12v26M24 12v26M33 12v26" />
-      <path d="M13 8h22" />
+      <path d="M8 8h12a5 5 0 0 1 4 2 5 5 0 0 1 4-2h12v28H28a4 4 0 0 0-4 4 4 4 0 0 0-4-4H8z" />
+      <path d="M24 12v28" />
     </>
   ),
 };

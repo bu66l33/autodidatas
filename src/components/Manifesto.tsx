@@ -4,12 +4,12 @@ const tenets = [
   {
     n: "I",
     title: "Ninguém vem te buscar.",
-    body: "Não existe currículo, mentor ou algoritmo que entregue o que você não foi atrás. Todo aprendizado que importou na sua vida começou com uma curiosidade mal resolvida — e nenhuma delas tinha prazo de entrega.",
+    body: "Não existe currículo, mentor ou algoritmo que entregue o que você não foi atrás. Todo aprendizado que importou na sua vida começou com uma curiosidade mal resolvida, e nenhuma delas tinha prazo de entrega.",
   },
   {
     n: "II",
     title: "Profundidade acima de opinião.",
-    body: "É barato ter opinião sobre tudo. É caro entender uma coisa até o fim. Aqui, a segunda vale mais — e a diferença entre as duas aparece em dois minutos de conversa.",
+    body: "É barato ter opinião sobre tudo. É caro entender uma coisa até o fim. Aqui, a segunda vale mais, e a diferença entre as duas aparece em dois minutos de conversa.",
   },
   {
     n: "III",
@@ -24,7 +24,7 @@ const tenets = [
   {
     n: "V",
     title: "Ser o mais burro da sala é privilégio.",
-    body: "Se você é o mais inteligente do seu grupo, você não tem grupo — tem plateia. Troque de sala enquanto ainda dá tempo.",
+    body: "Se você é o mais inteligente do seu grupo, você não tem grupo, tem plateia. Troque de sala enquanto ainda dá tempo.",
   },
   {
     n: "VI",
@@ -47,7 +47,7 @@ export default function Manifesto() {
             <div className="rule mt-8 w-32" />
             <p className="mt-8 text-[1.02rem] leading-[1.75] text-muted">
               Toda comunidade tem regra. Poucas têm princípio. Estes são os nossos, escritos
-              antes do primeiro membro entrar — e mantidos mesmo quando dão trabalho.
+              antes do primeiro membro entrar e mantidos mesmo quando dão trabalho.
             </p>
           </Reveal>
         </div>
