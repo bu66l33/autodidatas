@@ -40,17 +40,6 @@ export default function Areas() {
                 </h3>
                 <p className="font-display mt-2 text-[1.05rem] italic text-gold/85">{a.line}</p>
                 <p className="mt-4 text-[1rem] leading-[1.75] text-muted">{a.body}</p>
-
-                <ul className="mt-7 flex flex-wrap gap-2 pt-1">
-                  {a.tags.map((t) => (
-                    <li
-                      key={t}
-                      className="rounded-sm border border-line-soft bg-surface/60 px-2.5 py-1 font-mono text-[0.66rem] uppercase tracking-[0.12em] text-faint"
-                    >
-                      {t}
-                    </li>
-                  ))}
-                </ul>
               </article>
             </Reveal>
           ))}

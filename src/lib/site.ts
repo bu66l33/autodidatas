@@ -11,7 +11,6 @@ export const areas = [
     title: "Direct Response",
     line: "Escrever para vender é psicologia com placar.",
     body: "Copy que é medida, não elogiada. A gente desmonta o que está rodando com verba alta e discute por que funciona — ângulo, promessa, mecanismo, prova.",
-    tags: ["VSL", "Headlines", "Ofertas", "Ângulos", "Funis", "Swipe file"],
     glyph: "target",
   },
   {
@@ -19,7 +18,6 @@ export const areas = [
     title: "E-commerce & Criativos",
     line: "Do produto até o criativo que escala.",
     body: "Escolha de produto, oferta, página, tráfego e — principalmente — o criativo. Porque no fim é o vídeo que carrega a conta.",
-    tags: ["Criativos", "Edição de vídeo", "Tráfego pago", "Oferta", "CRO", "Escala"],
     glyph: "cart",
   },
   {
@@ -27,7 +25,6 @@ export const areas = [
     title: "IA na prática",
     line: "Testado por nós antes de virar indicação.",
     body: "As ferramentas que a gente usa de verdade no dia a dia, com prints, prompts e resultado junto. Sem hype de influencer e sem link de afiliado disfarçado.",
-    tags: ["Claude Code", "Codex", "Kimi", "Google AI Studio", "Lovable", "Vercel"],
     glyph: "network",
   },
   {
@@ -35,7 +32,6 @@ export const areas = [
     title: "Fundamentos",
     line: "O que sustenta todo o resto.",
     body: "Nada aqui é hobby. Matemática afia o raciocínio, xadrez treina antecipação, filosofia ensina a questionar a pergunta antes de otimizar a resposta.",
-    tags: ["Matemática", "Xadrez", "Filosofia", "Lógica", "Estatística"],
     glyph: "column",
   },
 ];
@@ -56,9 +52,16 @@ export const topics = [
   "Criativos",
   "Edição de vídeo",
   "Copywriting",
-  "Dropshipping",
+  "Direct Response",
+  "E-commerce",
   "Automação",
+  "SaaS",
+  "Micro SaaS",
+  "Fintechs",
+  "Startups",
   "Matemática",
+  "Física",
+  "Psicologia",
   "Xadrez",
   "Filosofia",
 ];
